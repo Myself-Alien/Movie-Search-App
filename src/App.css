@@ -1,14 +1,14 @@
 @font-face {
   font-family: Roboto-Regular;
-  src: url(./fonts/Roboto_Condensed-Regular.ttf);
+  src: url(./component/fonts/Roboto_Condensed-Regular.ttf)
 }
 @font-face {
   font-family: Roboto-Bold;
-  src: url(./fonts/Roboto_SemiCondensed-Bold.ttf);
+  src: url(./component/fonts/Roboto_SemiCondensed-Bold.ttf);
 }
 @font-face {
   font-family: Roboto-Light;
-  src: url(./fonts/Roboto_Condensed-Light.ttf);
+  src: url(./component/fonts/Roboto_Condensed-Light.ttf);
 }
 
 .body {
@@ -47,4 +47,18 @@
 }
 .card-title,.details-title,.footer_text {
   font-family: Roboto-Regular;
+}
+.card-title,.card-text
+{
+  color: #03a6a1 !important;
+}
+.card-title
+{
+  margin-bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.card:hover
+{
+  border: 1px solid #03a6a1;
 }
