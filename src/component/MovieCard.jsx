@@ -3,7 +3,7 @@ import '../App.css';
 
 const MovieCard = ({ movie }) => {
   return (
-    <div className="card h-100 mt-3">
+    <div className="card mt-2">
       <Link to={`/movie/${movie.imdbID}`} className="nounderline">
         <img
           src={movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/300x400?text=No+Image"}

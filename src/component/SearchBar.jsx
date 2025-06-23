@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBar = ({ searchTerm, setSearchTerm, onSearch }) => {
   return (
-    <div className="container">
+    <div className="container mb-3 mt-2">
       <div className="row">
         <div className="col-md-6 offset-md-3">
           <div className="input-group mt-3">
