@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto-Regular;
-  src: url(./component/fonts/Roboto_Condensed-Regular.ttf)
+  src: url(./component/fonts/Roboto_Condensed-Regular.ttf);
 }
 @font-face {
   font-family: Roboto-Bold;
@@ -27,7 +27,7 @@
   padding-bottom: 8px;
   color: #ffe3bb;
   font-family: Roboto-Bold;
-  font-weight:100;
+  font-weight: 100;
 }
 .footer_text {
   margin-bottom: 0rem !important;
@@ -45,28 +45,55 @@
   outline-color: #03a6a1 !important;
   color: #ffe3bb !important;
 }
-.card-title,.details-title,.footer_text {
+.card-title,
+.details-title,
+.footer_text {
   font-family: Roboto-Regular;
 }
-.card-title,.card-text
-{
+.card-title,
+.card-text {
   color: #03a6a1 !important;
 }
-.card-title
-{
+.card-title {
   margin-bottom: 0px !important;
   margin: 0px !important;
   padding: 0px !important;
 }
-.card:hover
-{
+.card:hover {
   border: 1px solid #03a6a1;
 }
-.card
-{
-  transition: transform .3s; 
+.card {
+  transition: transform 0.3s;
   overflow: hidden;
 }
 .card:hover {
   transform: scale(1.1);
+}
+.movie_icon {
+  height: 30px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  color: #ffe3bb !important;
+   -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.logo_text {
+  margin-bottom: 0rem !important;
 }

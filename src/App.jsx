@@ -4,6 +4,7 @@ import SearchBar from "./component/SearchBar";
 import MovieCard from "./component/MovieCard";
 import MovieDetails from "./component/MovieDetails";
 import Footer from "./component/Footer";
+import MovieIcon from "./component/images/MovieIcon.png";
 import "./App.css";
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
     <Router>
       <div className="body">
         <div className="title">
-          <NavLink to="/" className="nounderline"><h2 className="text-center">Movie Search App</h2></NavLink>
+          <NavLink to="/" className="nounderline"><h2 className="text-center logo_text"><img src={MovieIcon} alt="Movie Icon" className="movie_icon" />Movie Search App</h2></NavLink>
         </div>
         <Routes>
           <Route
@@ -50,6 +51,7 @@ const App = () => {
           <Route path="/movie/:id" element={<MovieDetails />} />
         </Routes>
         <Footer />
+        
       </div>
     </Router>
   );
