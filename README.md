@@ -1,4 +1,5 @@
 # 🎬 Movie Search App
+![Movie-Search-App](https://github.com/user-attachments/assets/c3f44ec0-c853-4781-b969-37f6ab33e054)
 
 A simple and sleek Movie Search App built with React.js. This app allows you to search for movies, view details, and explore poster images by leveraging the [OMDb API](https://www.omdbapi.com/).
 
